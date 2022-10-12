@@ -1,14 +1,19 @@
 #include <stdio.h>
 
-void hello();
+void HelloPrint();
+void NewPrint();
 
 int main() {
 
-	hello();
+	HelloPrint();
+	NewPrint();
 
 	return 0;
 }
 
-void hello(){
-	printf("Hello Git World!\n");
+void HelloPrint(){
+	printf("Hello GitHub World!\n");
+}
+void NewPrint() {
+	printf("Hello New World!\n");
 }
