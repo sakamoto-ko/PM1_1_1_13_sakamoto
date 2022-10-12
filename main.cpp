@@ -10,5 +10,5 @@ int main() {
 }
 
 void hello(){
-	printf("Hello World!\n");
+	printf("Hello Git World!\n");
 }
