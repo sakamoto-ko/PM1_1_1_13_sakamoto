@@ -1,23 +1,10 @@
-#include <stdio.h>
-
-void HelloPrint();
-void NewPrint();
+#include <iostream>
 
 int main() {
 
-	HelloPrint();
-	NewPrint();
-	ThridBranch();
+	std::cout << "Hello GitHub World!" << "\n";
+	std::cout << "New branch" << "\n";
+	std::cout << "third branch" << "\n";
 
 	return 0;
-}
-
-void HelloPrint(){
-	printf("Hello GitHub World!\n");
-}
-void NewPrint() {
-	printf("Hello New World!\n");
-}
-void ThridBranch() {
-	printf("third branch\n");
 }
