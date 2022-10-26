@@ -7,6 +7,7 @@ int main() {
 
 	HelloPrint();
 	NewPrint();
+	ThridBranch();
 
 	return 0;
 }
@@ -16,4 +17,7 @@ void HelloPrint(){
 }
 void NewPrint() {
 	printf("Hello New World!\n");
+}
+void ThridBranch() {
+	printf("third branch\n");
 }
