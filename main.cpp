@@ -1,19 +1,9 @@
-#include <stdio.h>
-
-void HelloPrint();
-void NewPrint();
+#include <iostream>
 
 int main() {
 
-	HelloPrint();
-	NewPrint();
+	std::cout << "Hello GitHub World!" << "\n";
+	std::cout << "Clone Chenged" << "\n";
 
 	return 0;
-}
-
-void HelloPrint(){
-	printf("Hello GitHub World!\n");
-}
-void NewPrint() {
-	printf("Github Clone changed!\n");
 }
