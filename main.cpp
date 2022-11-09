@@ -15,5 +15,5 @@ void HelloPrint(){
 	printf("Hello GitHub World!\n");
 }
 void NewPrint() {
-	printf("New branch changed!\n");
+	printf("Github clone changed!\n");
 }
